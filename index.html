@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>マイポートフォリオ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="title">マイポートフォリオ</h1>
+        <nav>
+            <ul>
+                <li class="menu-item"><a href="#about">About</a></li>
+                <li class="menu-item"><a href="#products">Products</a></li>
+                <li class="menu-item"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="about-section"> 
+        <h2>About</h2>
+        <img src="https://via.placeholder.com/150.png" alt="プロフィール画像">
+        <p>フロントエンドエンジニアの山田太郎です。モダンなデザインと直感的なUI/UXを追求し、ReactやVue.jsを駆使したウェブアプリケーションの開発を得意としています。詳細はプロジェクトページをご覧ください。</p>
+    </section>
+
+    <section id="products" class="products-section">
+        <h2>Products</h2>
+        <div class="products-grid">
+
+            <!-- カード要素 -->
+            <div class="product-item card" data-modal-content="作品その1の詳細">
+                <div class="card-content">
+                    <img src="https://via.placeholder.com/150x150.png" alt="作品１">
+                    <p>作品その１</p>
+                </div>
+            </div>
+            <div class="product-item card" data-modal-content="作品その2の詳細">
+                <div class="card-content">
+                    <img src="https://via.placeholder.com/150x150.png" alt="作品２">
+                    <p>作品その２</p>
+                </div>
+            </div>
+            <div class="product-item card" data-modal-content="作品その3の詳細">
+                <div class="card-content">
+                    <img src="https://via.placeholder.com/150x150.png" alt="作品３">
+                    <p>作品その３</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- モーダルウィンドウ -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2 id="modal-title">作品のタイトル</h2>
+                <p id="modal-description">作品の説明</p>
+            </div>
+        </div>
+    
+    <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">お名前：</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="email">メールアドレス：</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="message">メッセージ：</label>
+                <textarea id="message" name="message"></textarea>
+            </div>
+            <button type="submit">送信する</button>
+            <p id="formMessage"></p>
+        </form>
+    </section>
+
+
+    <script src="./JS/script.js"></script>
+</body>
+</html>

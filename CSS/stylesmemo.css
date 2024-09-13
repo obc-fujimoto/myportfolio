@@ -1,0 +1,169 @@
+/* .modal {
+    padding: 100px 0;
+  }
+  
+  .inner {
+    width: min(100%, 1120px);
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* モーダルを開くボタン
+  .modal__cards {
+    display: flex;
+  }
+  
+  .modal__card {
+    width: calc((100% - (32px * 2)) / 3);
+    transition: opacity .6s;
+  }
+  
+  .modal__card:hover {
+    opacity: .6;
+  }
+  
+  .modal__trigger {
+    cursor: pointer;
+  }
+  
+  .modal__card:nth-child(3n - 1),
+  .modal__card:nth-child(3n) {
+    margin-left: 32px;
+  }
+  
+  .modal-card__image {
+    position: relative;
+  }
+  
+  .modal-card__image:before {
+    display: block;
+    padding-top: 120%;
+    content: '';
+  }
+  
+  .modal-card__image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .modal-card__content {
+    margin-top: 30px;
+  }
+  
+  .modal-card__title {
+    text-align: center;
+  }
+  
+  /* モーダル本体 
+  .modal__wrapper {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .modal__layer {
+    height: 100%;
+    background: rgba(50, 50, 50, .85);
+    cursor: pointer;
+  }
+  
+  .modal__container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: min(calc(100% - 40px), 1000px);
+    height: calc(100% - 40px);
+    padding: 20px;
+    background: #fff;
+  }
+  
+  .modal__inner {
+    position: relative;
+    overflow-y: scroll;
+    height: 100%;
+    padding: 80px 20px 20px;
+  }
+  
+  /* モーダルを閉じるボタン 
+  .modal__close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 44px;
+    height: 44px;
+    background: rgba(50, 50, 50, 1);
+    cursor: pointer;
+    transition: opacity .6s;
+  }
+  
+  .modal__close:hover {
+    opacity: .6;
+  }
+  
+  .modal__close:before,
+  .modal__close:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 1px;
+    background: #fff;
+    content: '';
+  }
+  
+  .modal__close:before {
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  
+  .modal__close:after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+  
+  /* モーダル内のコンテンツ 
+  .profile__group {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .profile__image {
+    position: relative;
+    width: 400px;
+  }
+  
+  .profile__image:before {
+    display: block;
+    padding-top: 120%;
+    content: '';
+  }
+  
+  .profile__image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .profile__content {
+    width: calc(100% - 400px);
+    padding-left: 40px;
+  }
+  
+  .profile__title {
+    font-size: 18px;
+  }
+  
+  .profile__text {
+    margin-top: 30px;
+    line-height: 2;
+  } */
